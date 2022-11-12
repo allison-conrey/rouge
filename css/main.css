@@ -1,0 +1,149 @@
+/***** BASE STYLES *****/
+body {
+    font-family:'Montserrat', sans-serif;
+    color:#000000;
+    background: url('../img/background.png');
+    background-size: cover;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 110px;
+}
+
+.greentext{
+    color: #77a466;
+}
+
+header h1 {
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    padding: 20px 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px 0;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #77a466;
+    padding-left: 24px;
+}
+
+/***** WELCOME *****/
+
+#welcome img#hero-image {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+#welcome h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #77a466;
+    padding: 6px 0 6px 0;
+}
+
+#welcome p {
+    width: 1160px;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 0 14px 0;
+}
+
+/***** GENERAL INFO *****/
+
+#general-info .full-width {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    overflow: hidden;
+}
+
+#general-info .third-width {
+    padding: 11px 0 15px 0;
+}
+
+#general-info #awesome-reviews {
+    border-right: 1px solid #dedbdc;
+    border-left: 1px solid #dedbdc;
+}
+
+#general-info h4 {
+    color: #000000;
+    font-size: 12px;
+    text-transform: uppercase; 
+    width: 340px;
+    padding: 0 0 9px 0;
+}
+
+#general-info #specials p {
+    color: #77a466;
+    font-size: 16px;
+    width: 325px;
+}
+
+#general-info #awesome-reviews h4 {
+    padding: 0 30px;
+}
+
+#general-info #awesome-reviews p {
+    width: 340px;
+    padding: 5px 30px;
+}
+
+#general-info #contact {
+    width: 300px;
+}
+
+#general-info #contact h4 {
+    padding: 0 30px;
+}
+
+#general-info #contact p {
+    padding: 0 30px;
+    line-height: 8px;
+}
+
+/***** FOOTER *****/
+
+#slogan {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px; 
+    padding: 18px 0;
+}
+
+.fresh {
+    color: #77a466;
+    font-family: 'Dancing Script', cursive;
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: light;
+}
